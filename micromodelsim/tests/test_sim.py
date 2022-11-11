@@ -4,8 +4,7 @@ import numpy as np
 
 import micromodelsim as mmsim
 
-
-def test_sim():
+def test_sim(): 
     bvecs = np.array([[0.283, 0.283, 0.917]])
     bvals = np.array([1])
     odf_sh = np.array(

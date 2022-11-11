@@ -57,7 +57,13 @@ the default settings and documented following the `NumPy docstring conventions
 Tests
 #####
 
-*TBD*
+Please run the tests to make sure your changes have not broken anything. This
+can be done with ``pytest`` by executing the following in the root directory
+of the repository:   
+
+.. code-block::
+    
+    pytest
 
 Documentation
 #############
